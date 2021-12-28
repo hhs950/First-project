@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <ul>
+                <li class="main">
+                  Security
+                  <ul class="sub" style="display:none">
+                      <li>web</li>
+                      <il>system</il>
+                  </ul>
+                </li>
+                <li class="main">
+                  hack
+                  <ul class="sub" style="display:none">
+                      <li>server</li>
+                      <il>webhack</il>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(".main").click(function(){
+                if($(this).find(".sub").is(":visible")){
+                    $(this).find(".sub").slideUp();
+                }
+                else{
+                    $(this).find(".sub").slideDown();
+                }
+            })
+        </script>
+    </body>
+</html>

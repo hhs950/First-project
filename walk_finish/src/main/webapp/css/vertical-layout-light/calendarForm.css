@@ -1,0 +1,56 @@
+@charset "EUC-KR";
+
+
+.container1 {
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+
+        #canvas1 {
+            width: 500px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+
+#calendarForm{
+    margin: 10px;
+    padding: 0
+}
+
+.custom_calendar_table td {
+    text-align: center;
+}
+
+.custom_calendar_table thead.cal_date th {
+    font-size: 2rem;
+}
+
+.custom_calendar_table thead.cal_date th button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+}
+
+.custom_calendar_table thead.cal_week th {
+    background-color: #288CFF;
+    color: #fff;
+}
+
+.custom_calendar_table tbody td {
+    cursor: pointer;
+}
+
+.custom_calendar_table tbody td:nth-child(1) {
+    color: red;
+}
+
+.custom_calendar_table tbody td:nth-child(7) {
+    color: #288CFF;
+}
+
+.custom_calendar_table tbody td.select_day {
+    background-color: #288CFF;
+    color: #fff;
+}
